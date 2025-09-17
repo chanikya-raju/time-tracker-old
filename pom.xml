@@ -48,6 +48,12 @@
                     <artifactId>maven-pmd-plugin</artifactId>
                     <version>3.4</version>
                 </plugin>
+                     <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.3.1</version>
+</plugin>
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
